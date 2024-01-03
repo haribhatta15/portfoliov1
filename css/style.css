@@ -98,6 +98,7 @@ section {
   justify-content: center;
   align-items: center;
   gap: 3rem;
+  cursor: pointer;
 }
 .primary-header .logo div:nth-child(1) h1 {
   font-size: 1.8rem;
@@ -233,17 +234,6 @@ section {
   justify-content: center;
   align-items: center;
 }
-
-.email-field .info-container {
-  background: #2a2a2a;
-  display: flex;
-  align-items: center;
-  padding: 1rem 2rem;
-  border-radius: 100px;
-  gap: 1rem;
-  cursor: pointer;
-}
-
 .section2 .info-container .info-lists .info-content .icon-container i {
   font-size: 1.4rem;
   color: white;
@@ -409,7 +399,7 @@ section {
   display: none;
 }
 .section4 .project-container .project-card .btn-card button {
-  background: #ffa500;
+  background: orange;
   border: orange;
   padding: 0.5rem;
   font-size: 1rem;

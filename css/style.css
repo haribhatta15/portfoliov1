@@ -390,7 +390,7 @@ section {
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
 }
 .section4 .project-container .project-card {
-  box-shadow: 5px 5px 12px black;
+  box-shadow: 5px 5px 20px black;
   cursor: pointer;
   flex-direction: column;
 }
@@ -404,6 +404,9 @@ section {
   padding: 0.5rem;
   font-size: 1rem;
   font-weight: bold;
+}
+.section4 .project-container .project-card .btn-card:hover {
+  box-shadow: 5px 5px 15px black;
 }
 .section4 .project-container .project-card .top img {
   width: 100%;
@@ -425,6 +428,19 @@ section {
 }
 .section4 .project-container .project-card:hover .btn-card {
   display: block;
+}
+
+.connect-btn button {
+  cursor: pointer;
+  background: orange;
+  border: orange;
+  padding: 0.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.connect-btn:hover {
+  transform: scale(1.05);
 }
 
 .section5 {

@@ -500,7 +500,7 @@ section {
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
 
     .project-card {
-      box-shadow: 5px 5px 12px black;
+      box-shadow: 5px 5px 20px black;
 
       .btn-card {
         align-self: center;
@@ -514,6 +514,10 @@ section {
           font-weight: bold;
         }
       }
+      .btn-card:hover {
+        box-shadow: 5px 5px 15px black;
+      }
+
       cursor: pointer;
       flex-direction: column;
 
@@ -548,6 +552,20 @@ section {
 }
 
 // About section--------------
+
+.connect-btn button {
+  cursor: pointer;
+  background: orange;
+  border: orange;
+  padding: 0.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.connect-btn:hover {
+  transform: scale(1.05);
+}
+
 .section5 {
   margin-top: 100px;
   padding-top: 5rem;

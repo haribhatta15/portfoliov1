@@ -78,7 +78,7 @@ section {
   --border-color: var(--dark-border-color);
 }
 
-// Dark Mode
+// Dark Mode - not activated at the moment
 #darkMode {
   position: fixed;
   top: 7rem;
@@ -193,7 +193,7 @@ section {
       }
     }
   }
-
+  // check if this works properly
   @include mobile() {
   }
 }
